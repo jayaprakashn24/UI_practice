@@ -1,0 +1,106 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #dce8f3;
+}
+
+.main-container {
+  position: relative;
+  background-image: url(./bg.png);
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  background: #0d0d0d;
+  border-radius: 25px;
+  padding: 25px ;
+  overflow: hidden;
+  color: #fff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .3);
+}
+
+
+
+/* Header */
+header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 65px;
+}
+
+.logo h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Chip */
+.chip {
+  width: 60px;
+}
+
+/* Card Details */
+.card-details {
+  position: relative;
+  z-index: 2;
+  margin-top: 60px;
+}
+
+.card-details h6 {
+  color: #ddd;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card-details h4 {
+  margin-top: 5px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+/* Bottom Section */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 35px;
+}
+
+.name h5,
+.valid h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.name h6,
+.valid h6 {
+  color: #ddd;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
