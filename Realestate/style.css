@@ -192,7 +192,7 @@ nav ul li a {
     padding: 12px 22px;
     font-size: 16px;
     border-radius: 0;
-    
+
 }
 
 .quotes p {
@@ -233,4 +233,111 @@ footer ul {
     font-size: 12px;
     width: 150px;
     margin: auto;
+}
+
+/* ================= page 2 ================= */
+
+.img2_hero_left {
+    width: 100%;
+    max-width: 1400px;
+    margin: 80px auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+/* Left Image */
+.hero-img-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-left img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+
+/* Right Content */
+.content_right_hero {
+    flex: 1;
+    max-width: 550px;
+}
+
+.content_right_hero h1 {
+    font-size: 60px;
+    line-height: 1.0;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.content_right_hero p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+/* Features */
+.features-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #555;
+    font-size: 16px;
+}
+
+.feature img {
+    width: 28px;
+    height: 28px;
+}
+
+/* Buttons */
+.btn2 {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-dark-browse,
+.btn-light-start {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.btn-dark-browse {
+    background: #233647;
+    color: #fff;
+}
+
+.btn-dark-browse:hover {
+    background: #172634;
+}
+
+.btn-light-start {
+    border: 1px solid #aaa;
+    color: #333;
+    background: #fff;
+}
+
+.btn-light-start:hover {
+    background: #233647;
+    color: #fff;
+
 }
