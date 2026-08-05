@@ -9,8 +9,9 @@
     width: 100%;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Horizontal center */
+    align-items: flex-start; /* Move to top */
+    padding-top: 30px;       /* Space from top */
 }
 
 nav{
