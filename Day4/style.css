@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  poppins, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section {
+	padding: 5rem 2rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    color: #333;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.menu-item {
+	background: #d7e4f1;
+	padding: 2rem;
+	border-radius: 15px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	height: 80%;
+}
+
+.menu-item-image {
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+	margin-bottom: 1.5rem;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+.menu-item-image:hover {
+	transform: scale(1.05);
+}
+
+.menu-item-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.menu-item h3 {
+	color: #333;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+.menu-item p {
+	color: #666;
+	margin-bottom: 1rem;
+}
+
+.price {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #054877;
+	margin-top: auto;
+	margin-bottom: 1rem;
+}
+
+.ingredients-btn {
+	background: none;
+	border: 2px solid #054877;
+	color: #054877;
+	padding: 0.5rem 1rem;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-top: 1rem;
+    font-weight: bold;
+}
+
+.ingredients-btn:hover {
+	background: #054877;
+	color: white;
+}
+
+
+
