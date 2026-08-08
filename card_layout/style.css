@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+
+div {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pill {
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#progress {
+  width: 115px;
+  height: 9px;
+  border: 1px solid black;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+#progress::-webkit-progress-bar {
+  background: white;
+  border-radius: 999px;
+}
+
+#progress::-webkit-progress-value {
+  background: green;
+  border-radius: 999px;
+}
+
+
